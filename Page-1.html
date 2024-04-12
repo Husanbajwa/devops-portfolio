@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en">
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -10,6 +9,7 @@ in record time">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./project.css">
   <link rel="stylesheet" href="nicepage.css" media="screen">
   <link rel="stylesheet" href="Page-1.css" media="screen">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -111,13 +111,12 @@ in record time">
           <div class="main">
             <div class="main__text-wrapper">
               <h1 class="main__title" style=" opacity: 0;">Transitions & Animations</h1>
-              <h2 style=" opacity: 0;" ">Combined with SVGs</h2>
+              <h2 style=" opacity: 0;" >Combined with SVGs</h2>
               <svg xmlns=" http://www.w3.org/2000/svg" class="dotted-circle" width="352" height="352"
                 overflow="visible">
                 <circle cx="176" cy="176" r="174" fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10"
                   stroke-dasharray="12.921,11.9271" />
                 </svg>
-
             </div>
           </div>
         </div>
@@ -179,7 +178,7 @@ in record time">
                         style="font-weight: 400;">&nbsp;+91
                         9914795477</span>
                     </p>
-                    <a href="Husan_Resume.pdf"
+                    <a href="Husanpreet_Resume.pdf" target="_blank" rel="noopener noreferrer"
                       class="u-active-palette-5-dark-2 u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-2 u-palette-3-base u-radius-8 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-1">Download cv&nbsp;&nbsp;<span
                         class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/959159-5d3ea7b7.png"
                           alt=""></span>
@@ -200,22 +199,99 @@ in record time">
           </div>
         </div>
       </section>
-      <section
-        class=" u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-clearfix u-gradient u-section-2"
+      <section id="projects" 
+      class="u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-clearfix u-gradient u-section-3"
+      id="carousel_3d0a" style="padding-left: 20px ; margin-top: 500px;">
+      <!-- <div class="u-clearfix u-sheet u-sheet-1"> -->
+        <h2 class="u-align-center-xs u-text u-text-body-alt-color u-text-1" >Projects</h2>
+        <div class="showcase">
+          <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                  <div class="blog-slider__title">Two-tier Application
+                    Deployment for Scalability and Fault Tolerance</div>
+                  <span class="blog-slider__code">Tools
+                    :
+                    Github , Docker , jenkins , K8s , Helm , EKS , Route-52</span>
+                  <div class="blog-slider__text">Github sends a
+                    webhook to jenkins . Then Jenkins build CI/CD
+                    pipeline to fetch code from github to Built and deploy
+                    Orchestrated Docker container cluster using Kubernetes</div>
+                  <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+                </div>
+              </div>
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                  <div class="blog-slider__title">Project: Serverless
+                    Deployment on AWS with Fargate and RDS</div>
+                  <span class="blog-slider__code">Tools
+                    :
+                    AWS, Fargate , RDS</span>
+                  <div class="blog-slider__text">Github sends a
+                    webhook to jenkins . Then Jenkins build CI/CD
+                    pipeline to fetch code from github to Built and deploy
+                    Orchestrated Docker container cluster using Kubernetes</div>
+                  <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+                </div>
+              </div>
+              
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                  <div class="blog-slider__title">Deploy
+                    end to end
+                    Django project on AWS</div>
+                  <span class="blog-slider__code">Tools
+                    :
+                    ​Github,Jenkins,Docker,K8s</span>
+                  <div class="blog-slider__text">Github sends a
+                webhook to jenkins . Then Jenkins build CI/CD
+                pipeline to fetch code from github to Built and deploy
+                Orchestrated Docker container cluster using Kubernetes</div>
+                  <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+                </div>
+              </div>
+              
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                  <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt="">
+                </div>
+                <div class="blog-slider__content">
+                  <div class="blog-slider__title">Multilevel Kubernetes clusters ETCD Backup and Restore</div>
+                  <span class="blog-slider__code">Tools
+                    :
+                    ​K8s , Servers(Ubuntu) </span>
+                  <div class="blog-slider__text">Take backups and restore backups on different clusters with different ETCD (Stacked and External ETCD) </div>
+                  <!-- <a href="#" class="blog-slider__button">READ MORE</a> -->
+                </div>
+              </div>
+              
+            </div>
+            <div class="blog-slider__pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class=" u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-clearfix u-gradient u-section-2"
         id="experience"
-        style="margin-top: 500px ;">
+        style="margin-top: 0px ;">
         <div class="u-clearfix u-sheet u-sheet-1">
-          <h2 class="u-text u-text-body-alt-color u-text-1" data-animation-name="customAnimationIn"
-            data-animation-duration="1500" data-animation-delay="0">Experience</h2>
+          <h2 class="u-text u-text-body-alt-color u-text-1" >Experience</h2>
           <div class="u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
             <div class="u-repeater u-repeater-1">
               <div class="u-align-left u-container-style u-list-item u-repeater-item">
                 <div class="u-container-layout u-similar-container u-container-layout-1">
-                  <div class="u-border-2 u-border-white u-expanded-width u-line u-line-horizontal u-line-1"
-                    data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">
-                  </div>
-                  <div class="custom-expanded u-container-style u-group u-shape-rectangle u-group-1"
-                    data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
+                  <div class="u-border-2 u-border-white u-expanded-width u-line u-line-horizontal u-line-1"></div>
+                  <div class="custom-expanded u-container-style u-group u-shape-rectangle u-group-1">
                     <div class="u-container-layout u-container-layout-2">
                       <h5 class="u-custom-font u-text u-text-palette-3-base u-text-2">Devops&nbsp; Engineer&nbsp;
                         Associate
@@ -232,9 +308,7 @@ in record time">
                         revolved
                         around automating and streamlining various aspects of the development lifecycle.</p>
                       <div
-                        class="u-align-left-sm u-align-left-xs u-container-style u-expanded-width u-group u-shape-rectangle u-group-2"
-                        data-animation-name="customAnimationIn" data-animation-duration="100"
-                        data-animation-delay="750">
+                        class="u-align-left-sm u-align-left-xs u-container-style u-expanded-width u-group u-shape-rectangle u-group-2">
                         <div class="u-container-layout u-container-layout-3">
                           <h1
                             class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2">
@@ -245,7 +319,7 @@ in record time">
                             deployment processes. This significantly improved the speed and reliability of our software
                             releases.<br>Infrastructure Provisioning with Ansible: Utilized Ansible to provision servers
                             and
-                            deploy application features. This automation reduced manual configuration errors and ensured
+                            deploy application features. This  automation reduced manual configuration errors and ensured
                             consistency across environments.<br>Containerization with Docker: Built and deployed Docker
                             containers to containerize our applications, making it easier to manage dependencies and
                             maintain consistency between development and production environments.<br>Kubernetes
@@ -286,7 +360,7 @@ in record time">
                   <div class="u-container-style u-group u-group-3">
                     <div class="u-container-layout u-container-layout-4">
                       <p class="u-custom-font u-text u-text-palette-5-light-2 u-text-6"
-                        data-animation-name="customAnimationIn" data-animation-duration="1750"> &nbsp;1 Nov 2021 - 1 Feb
+                        > &nbsp;1 Nov 2021 - 1 Feb
                         2022&nbsp;</p>
                       <h1
                         class="test-heading u-active-none u-btn u-button-style u-hover-none u-none u-text-body-alt-color u-btn-4">
@@ -311,338 +385,65 @@ in record time">
               </div>
             </div>
           </div>
-          <a href="mailto:Husanpreetsingh9914@gmail.com"
-            class="u-active-white u-border-none u-btn u-btn-round u-button-style u-hover-white u-palette-3-base u-radius-8 u-text-active-grey-80 u-text-body-alt-color u-text-hover-grey-80 u-btn-5"
-            data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">contact me
+          <a href="#carousel_0bbc"
+            class="u-active-white u-border-none u-btn u-btn-round u-button-style u-hover-white u-palette-3-base u-radius-8 u-text-active-grey-80 u-text-body-alt-color u-text-hover-grey-80 u-btn-5">contact me
           </a>
         </div>
       </section>
-      <section id="projects"
-        class="u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-clearfix u-gradient u-section-3"
-        id="carousel_3d0a" style="padding-left: 20px ;">
-        <!-- <div class="u-clearfix u-sheet u-sheet-1"> -->
-        <h2 class="u-align-center-xs u-text u-text-body-alt-color u-text-1" data-animation-name="customAnimationIn"
-          data-animation-duration="1500" data-animation-delay="0">Projects</h2>
-        <!-- <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
-        </div> -->
-        <ul class="list-no-style">
-          <li>
-            <div class="u-align-left u-container-style u-list-item u-repeater-item"></div>
-            <div class="u-border-2 u-border-white u-expanded-width u-line u-line-horizontal u-line-1"
-              data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">
-            </div>
 
-
-            <div class="grid-container">
-              <div class="left-block">
-                <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-1"
-                  data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                  <div class="u-container-layout u-container-layout-2">
-                    <div
-                      class="u-carousel u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1"
-                      data-interval="5000" data-u-ride="carousel" id="carousel-3b51">
-
-                      <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                        <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
-                          <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                          </div>
-                          <div class="u-over-slide u-over-slide-1"></div>
-                        </div>
-                        <div class="u-carousel-item u-gallery-item u-carousel-item-2">
-                          <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                          </div>
-                          <div class="u-over-slide u-over-slide-2"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-              <div class="right-block">
-                <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-2"
-                  data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                  <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-xl u-container-layout-3">
-                    <h5 class="u-custom-font u-text u-text-default u-text-palette-4-base u-text-2"> Two-tier Application Deployment for Scalability and Fault Tolerance</h5>
-                    <a href="https://nicepage.com/website-builder"
-                      class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Tools
-                      :
-                     Github , Docker , jenkins , K8s , Helm , EKS , Route-52</a>
-                    <p class="u-align-center-xs u-custom-font u-text u-text-palette-5-light-1 u-text-3">
-                      Github sends a
-                      webhook to jenkins . Then Jenkins build CI/CD
-                      pipeline to fetch code from github to Built and deploy
-                      Orchestrated Docker container cluster using Kubernetes </p>
-                    <a href="https://nicepage.com/ru/c/galereya-html-shablony"
-                      class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-2">Learn
-                      More</a>
-                  </div>
-                </div>
-
-
-
-              </div>
-            </div>
-            <li>
-              <div class="u-align-left u-container-style u-list-item u-repeater-item"></div>
-              <div class="u-border-2 u-border-white u-expanded-width u-line u-line-horizontal u-line-1"
-                data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">
-              </div>
-  
-  
-              <div class="grid-container">
-                <div class="left-block">
-                  <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-1"
-                    data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                    <div class="u-container-layout u-container-layout-2">
-                      <div
-                        class="u-carousel u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1"
-                        data-interval="5000" data-u-ride="carousel" id="carousel-3b51">
-  
-                        <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                          <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
-                            <div class="u-back-slide">
-                              <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                            </div>
-                            <div class="u-over-slide u-over-slide-1"></div>
-                          </div>
-                          <div class="u-carousel-item u-gallery-item u-carousel-item-2">
-                            <div class="u-back-slide">
-                              <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                            </div>
-                            <div class="u-over-slide u-over-slide-2"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-  
-  
-                </div>
-                <div class="right-block">
-                  <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-2"
-                    data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                    <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-xl u-container-layout-3">
-                      <h5 class="u-custom-font u-text u-text-default u-text-palette-4-base u-text-2"> Project: Serverless Deployment on AWS with Fargate and RDS</h5>
-                      <a href="https://nicepage.com/website-builder"
-                        class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Tools
-                        :
-                        AWS,  Fargate , RDS</a>
-                      <p class="u-align-center-xs u-custom-font u-text u-text-palette-5-light-1 u-text-3">
-                        Github sends a
-                        webhook to jenkins . Then Jenkins build CI/CD
-                        pipeline to fetch code from github to Built and deploy
-                        Orchestrated Docker container cluster using Kubernetes </p>
-                      <a href="https://nicepage.com/ru/c/galereya-html-shablony"
-                        class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-2">Learn
-                        More</a>
-                    </div>
-                  </div>
-  
-  
-  
-                </div>
-              </div>
-              <li>
-                <div class="u-align-left u-container-style u-list-item u-repeater-item"></div>
-                <div class="u-border-2 u-border-white u-expanded-width u-line u-line-horizontal u-line-1"
-                  data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">
-                </div>
-    
-    
-                <div class="grid-container">
-                  <div class="left-block">
-                    <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-1"
-                      data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                      <div class="u-container-layout u-container-layout-2">
-                        <div
-                          class="u-carousel u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1"
-                          data-interval="5000" data-u-ride="carousel" id="carousel-3b51">
-    
-                          <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                            <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
-                              <div class="u-back-slide">
-                                <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                              </div>
-                              <div class="u-over-slide u-over-slide-1"></div>
-                            </div>
-                            <div class="u-carousel-item u-gallery-item u-carousel-item-2">
-                              <div class="u-back-slide">
-                                <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                              </div>
-                              <div class="u-over-slide u-over-slide-2"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-    
-    
-                  </div>
-                  <div class="right-block">
-                    <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-2"
-                      data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                      <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-xl u-container-layout-3">
-                        <h5 class="u-custom-font u-text u-text-default u-text-palette-4-base u-text-2"> Project: Serverless Deployment on AWS with Fargate and RDS</h5>
-                        <a href="https://nicepage.com/website-builder"
-                          class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Tools
-                          :
-                          AWS,  Fargate , RDS</a>
-                        <p class="u-align-center-xs u-custom-font u-text u-text-palette-5-light-1 u-text-3">
-                          Github sends a
-                          webhook to jenkins . Then Jenkins build CI/CD
-                          pipeline to fetch code from github to Built and deploy
-                          Orchestrated Docker container cluster using Kubernetes </p>
-                        <a href="https://nicepage.com/ru/c/galereya-html-shablony"
-                          class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-2">Learn
-                          More</a>
-                      </div>
-                    </div>
-    
-    
-    
-                  </div>
-                </div>
-          </li>
-          <li>
-            <div class="u-align-left u-container-style u-list-item u-repeater-item"></div>
-            <div class="u-border-2 u-border-white u-expanded-width u-line u-line-horizontal u-line-1"
-              data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">
-            </div>
-
-
-            <div class="grid-container">
-              <div class="left-block">
-                <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-1"
-                  data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                  <div class="u-container-layout u-container-layout-2">
-                    <div
-                      class="u-carousel u-expanded-width-xs u-gallery u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1"
-                      data-interval="5000" data-u-ride="carousel" id="carousel-3b51">
-
-                      <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                        <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
-                          <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                          </div>
-                          <div class="u-over-slide u-over-slide-1"></div>
-                        </div>
-                        <div class="u-carousel-item u-gallery-item u-carousel-item-2">
-                          <div class="u-back-slide">
-                            <img class="u-back-image u-expanded" src="images/90fc53c9.svg">
-                          </div>
-                          <div class="u-over-slide u-over-slide-2"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-              <div class="right-block">
-                <div class="u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-2"
-                  data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-                  <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-xl u-container-layout-3">
-                    <h5 class="u-custom-font u-text u-text-default u-text-palette-4-base u-text-2"> Deploy
-                      end to end
-                      Django project on AWS</h5>
-                    <a href="https://nicepage.com/website-builder"
-                      class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Tools
-                      :
-                      ​Github,Jenkins,Docker,K8s</a>
-                    <p class="u-align-center-xs u-custom-font u-text u-text-palette-5-light-1 u-text-3">
-                      Github sends a
-                      webhook to jenkins . Then Jenkins build CI/CD
-                      pipeline to fetch code from github to Built and deploy
-                      Orchestrated Docker container cluster using Kubernetes </p>
-                    <a href="https://nicepage.com/ru/c/galereya-html-shablony"
-                      class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-2">Learn
-                      More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-
-        <a href="mailto:Husanpreetsingh9914@gmail.com"
-          class="u-active-white u-border-none u-btn u-btn-round u-button-style u-hover-white u-palette-3-base u-radius-8 u-text-active-grey-80 u-text-body-alt-color u-text-hover-grey-80 u-btn-9"
-          data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">contact me
-        </a>
-        <!-- </div> -->
-      </section>
       <section id="Portfolio" class="u-align-center u-clearfix u-container-align-center u-palette-5-dark-3 u-section-4"
-        id="carousel_902e" style="padding-top: 20px ;">
+        id="carousel_902e" style="padding-top: 20px ;" >
         <div class="u-clearfix u-sheet u-sheet-1">
-          <h2 class="u-align-center u-text u-text-1" data-animation-name="customAnimationIn"
-            data-animation-duration="1500" data-animation-delay="750"> Portfolio</h2>
-          <p class="u-align-center u-text u-text-2" data-animation-name="customAnimationIn"
-            data-animation-duration="1250" data-animation-delay="750"> Bridging the Gap Between Development and
+          <h2 class="u-align-center u-text u-text-1"> Portfolio</h2>
+          <p class="u-align-center u-text u-text-2" > Bridging the Gap Between Development and
             Operations - Your DevOps Partner!</p>
           <div class="u-expanded-width u-list u-list-1">
             <div class="u-repeater u-repeater-1">
-              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-1" src=""
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-1" src="">
                 <div class="u-container-layout u-similar-container u-container-layout-1">
                   <img class="u-expanded-width u-image u-image-1" src="images/jhjh688.jpg" data-image-width="759"
                     data-image-height="759">
-                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-3"
-                    data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-3">
                     CI/CD</h5>
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-2" src=""
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-2" src="">
                 <div class="u-container-layout u-similar-container u-container-layout-2">
                   <img class="u-expanded-width u-image u-image-2" src="images/g4.jpg" data-image-width="759"
                     data-image-height="759">
-                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-4"
-                    data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-4">
                     AUTOMATION</h5>
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-3" src=""
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-3" src="">
                 <div class="u-container-layout u-similar-container u-container-layout-3">
                   <img class="u-expanded-width u-image u-image-3" src="images/gfgggggggggg.jpg" data-image-width="1000"
                     data-image-height="914">
-                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-5"
-                    data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-5">
                     Monitoring and Alerting</h5>
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-4" src=""
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-4" src="">
                 <div class="u-container-layout u-similar-container u-container-layout-4">
                   <img class="u-expanded-width u-image u-image-4" src="images/fgfg.jpg" data-image-width="898"
                     data-image-height="898">
-                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-6"
-                    data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-6">
                     Backup</h5>
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-5" src=""
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-5" src="">
                 <div class="u-container-layout u-similar-container u-container-layout-5">
                   <img class="u-expanded-width u-image u-image-5" src="images/PSD_01.jpg" data-image-width="1355"
                     data-image-height="1080">
-                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-7"
-                    data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-7">
                     Scaling and Auto-scaling</h5>
                 </div>
               </div>
-              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-6" src=""
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-6" src="">
                 <div class="u-container-layout u-similar-container u-container-layout-6">
                   <img class="u-expanded-width u-image u-image-6" src="images/fff.jpg" data-image-width="898"
                     data-image-height="898">
-                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-8"
-                    data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+                  <h5 class="u-align-center u-text u-text-palette-5-dark-1 u-text-8">
                     Infrastructure as Code</h5>
                 </div>
               </div>
@@ -656,11 +457,11 @@ in record time">
             <div class="u-container-layout u-valign-bottom-xs u-valign-middle-xl u-container-layout-1">
               <h3
                 class="u-align-center-md u-align-center-sm u-align-left-lg u-align-left-xl u-text u-text-body-alt-color u-text-1"
-                data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="0"> About
+                > About
                 me
               </h3>
               <p class="u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-body-alt-color u-text-2"
-                data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"> I'm
+                > I'm
                 Husan, a dedicated and passionate individual with a strong background in DevOps and automation. I thrive
                 on
                 solving complex problems and continuously improving processes. When I'm not working on technology, I
@@ -670,10 +471,8 @@ in record time">
                 Games . I believe in the power of teamwork and innovation to drive success, both in my professional and
                 personal life.Looking forward to new challenges and opportunities .<br>
               </p>
-              <a href="mailto:Husanpreetsingh9914@gmail.com"
-                class="u-active-white u-align-left u-border-none u-btn u-btn-round u-button-style u-hover-white u-palette-3-base u-radius-8 u-text-active-grey-80 u-text-body-alt-color u-text-hover-grey-80 u-btn-1"
-                data-animation-name="customAnimationIn" data-animation-duration="1750"
-                data-animation-delay="750">contact
+              <a href="#carousel_0bbc"
+                class="u-active-white u-align-left u-border-none u-btn u-btn-round u-button-style u-hover-white u-palette-3-base u-radius-8 u-text-active-grey-80 u-text-body-alt-color u-text-hover-grey-80 u-btn-1">contact
                 me
               </a>
             </div>
@@ -824,10 +623,10 @@ in record time">
                     <div class="centerer">
                       <div class="links-button">
                         <a class="btn btn-1" href="mailto:Husanpreetsingh9914@gmail.com">Gmail</a>
-                        <a class="btn btn-4" href="">Linkedin</a>
-                        <a class="btn btn-5" href="">Instagram</a>
-                        <a class="btn btn-2" href="">Telegran</a>
-                        <a class="btn btn-3" href="">Github</a>
+                        <a class="btn btn-4" href="https://www.linkedin.com/in/husanpreet-singh-/">Linkedin</a>
+                        <a class="btn btn-5" href="https://www.instagram.com/husanbajwa991/">Instagram</a>
+                        <a class="btn btn-2" href="https://t.me/HusanpreetBajwa/">Telegran</a>
+                        <a class="btn btn-3" href="https://github.com/Husanbajwa/">Github</a>
                       </div>
                     </div>
                   </div>
@@ -839,9 +638,10 @@ in record time">
       </section>
     </section>
   </div>
-  <script src="animation.js">
+  <script src="animation.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script><script  src="./project.js"></script>
 
-  </script>
 </body>
 
 </html>
